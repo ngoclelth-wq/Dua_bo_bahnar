@@ -6,7 +6,7 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Trophy, Play, RotateCcw, CheckCircle2, XCircle, User, Waves, Settings, Plus, Trash2, Save, X } from 'lucide-react';
-import { collection, onSnapshot, addDoc, deleteDoc, doc, query, orderBy, serverTimestamp } from 'firebase/firestore';
+
 
 // --- Sound Utility ---
 const playSound = (type: 'correct' | 'wrong' | 'move' | 'win') => {
